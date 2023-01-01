@@ -14,7 +14,7 @@ const cors = require("cors")
 app.use(express.json())
 app.use(express.urlencoded({ extended: false }))
 app.use(cors({
-  origin: ["http://localhost:3000/", "https://task-manager-app.onrender.com"]
+  origin: ["http://localhost:3000/", "https://task-manager-app-epg1.onrender.com"]
 }))
 app.use("/api/tasks", taskRoutes)
 
